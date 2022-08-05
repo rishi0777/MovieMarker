@@ -10,16 +10,18 @@ const Header = () => {
     <div className="header">
       <div className="headerLeft">
         <img className="brand-img" src={port_icon} />
-        <div className="headerLeftHeading">&nbsp;Movie-Marker</div>
+        <div className="headerLeftHeading">&nbsp;&nbsp;MOVIE MARKER</div>
       </div>
       <div className="headerRight">
         <Link to="/" className="headerRightLinks">
-          <GoHome />
-          <div>&nbsp;Home</div>
+          HOME
         </Link>
-        <Link to="/bookmarked" className="headerRightLinks">
-          <BsBookmarkHeart />
-          <div>&nbsp;Bookmark</div>
+        <Link
+          to="/bookmarked"
+          className="headerRightLinks"
+          style={{ margin: "0rem 2rem 0rem 2rem" }}
+        >
+          BOOKMARK
         </Link>
       </div>
     </div>

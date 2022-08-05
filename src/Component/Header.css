@@ -4,15 +4,17 @@
   background-color: #252525;
   color: white;
   padding: 1.3rem 0rem 1.2rem 0rem;
+  font-family: poppinsRegular;
 }
 .headerLeft {
   display: flex;
   align-items: center;
   margin-left: 1rem;
-  flex: 0.8;
+  flex: 0.85;
 }
 .headerRight {
-  flex: 0.2;
+  font-family: "Open Sans", sans-serif;
+  flex: 0.15;
   display: flex;
 }
 
@@ -25,10 +27,8 @@
   width: 2rem;
 }
 .headerRightLinks {
-  display: flex;
-  margin-left: 2.2rem;
-  align-items: center;
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
